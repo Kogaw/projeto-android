@@ -21,7 +21,7 @@
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque:'Bebas Neue', cursive;
-    --fonte-android:'idroid', cursive
+    --fonte-android:'idroid', cursive;
 
 }
 
@@ -46,7 +46,7 @@ header{
 
 header > h1{
     color: white; 
-    font-family: var(--fonte-destaque);
+    font-family: 'Bebas Neue', cursive;
     font-size: 3em;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.514);
@@ -127,13 +127,13 @@ main a:hover{
 
 main h1{
     color: var(--cor5);
-    font-family: var(--fonte-android);
+    font-family: 'idroid', cursive;
     font-weight: normal;
     font-size: 1.8;
 }
 
 main h2{
-    font-family: var(--fonte-android);
+    font-family: 'idroid', cursive;
     color: var(--cor4);
     font-size: 1.3em;
     background-image: linear-gradient(to right, var(--cor1), transparent);
